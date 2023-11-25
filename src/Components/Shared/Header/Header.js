@@ -40,12 +40,12 @@ const Header = () => {
             <nav className='hidden lg:flex flex-row justify-between items-center pl-10 pr-10 pt-5 pb-5 mb-0 navbar sticky top-0 backdrop-blur-md bg-white/30 text-mainFont'>
 
                 <div className='nav-links'>
-                    <NavLink className='ml-[38px] mr-[38px] uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/">Home</NavLink>
-                    <NavLink className='ml-[38px] mr-[38px] uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/about">About</NavLink>
-                    <NavLink className='ml-[38px] mr-[38px] uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/skills">Skills</NavLink>
-                    <NavLink className='ml-[38px] mr-[38px] uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/projects">Projects</NavLink>
-                    <NavLink className='ml-[38px] mr-[38px] uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/blog">Blog</NavLink>
-                    <NavLink className='ml-[38px] mr-[38px] uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/contact">Contact Me</NavLink>
+                    <NavLink className='ml-[30px] mr-[30px] uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/">Home</NavLink>
+                    <NavLink className='ml-[30px] mr-[30px] uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/about">About</NavLink>
+                    <NavLink className='ml-[30px] mr-[30px] uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/skills">Skills</NavLink>
+                    <NavLink className='ml-[30px] mr-[30px] uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/projects">Projects</NavLink>
+                    <NavLink className='ml-[30px] mr-[30px] uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/blog">Blog</NavLink>
+                    <NavLink className='ml-[30px] mr-[30px] uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/contact">Contact Me</NavLink>
                 </div>
             </nav>
         </>
