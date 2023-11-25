@@ -1,0 +1,44 @@
+.active {
+    color: #142021;
+    background-color: #57ced97c;
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+
+.nav-links {
+    width: 100%;
+    transition: ease-in 0.2s;
+}
+
+.nav-links a {
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.nav-links a:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    border-radius: 30px;
+    background-color: #57CFD9;
+    /* left: 0; */
+    right: 0;
+    bottom: -5px;
+    transition: 0.3s linear;
+}
+
+/* .nav-links a:hover:after {
+    
+} */
+
+.nav-links a:not(.active):hover:after {
+    width: 100%;
+}
+
+.phone {
+    position: absolute;
+    top: -200px;
+}
