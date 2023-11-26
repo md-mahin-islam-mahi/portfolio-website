@@ -29,7 +29,7 @@ const About = () => {
               </div> <br />
 
               <div>
-                I am Md. Mahin Islam Mahi. I call myself a web developer, although I'm not that much of an expert. I wanted to start freelancing as a Graphic Designer. But due to lack of creativity, I could not go so far. Later I decided to move on web development and did a course in <a target='_blank' className='font-bold text-[#aa0ab2]' href="https://programming-hero.com">Programming Hero</a> and got a blackbelt certificate. I thought maybe I can do something good here. And so I am still learning and trying for that purpose.
+                I am Md. Mahin Islam Mahi. I call myself a web developer, although I'm not that much of an expert. I wanted to start freelancing as a Graphic Designer. But due to lack of creativity, I could not go so far. Later I decided to move on web development and did a course in <a target='_blank' className='font-bold text-[#aa0ab2]' href="https://programming-hero.com">Programming Hero</a> and got a blackbelt <a target='_blank' className='text-[18px] md:text-[22px] lg:text-[26px] text-mainFont' href="https://drive.google.com/file/d/1OLV4jmT5VxW_alPo0NeycbzEdv9hbPqw/view?usp=sharing">Certificate</a>. I thought maybe I can do something good here. And so I am still learning and trying for that purpose.
               </div> <br />
 
               <div>
