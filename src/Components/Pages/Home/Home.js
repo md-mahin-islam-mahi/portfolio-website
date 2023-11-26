@@ -4,6 +4,9 @@ import copy from 'copy-to-clipboard';
 import toast, { Toaster } from 'react-hot-toast';
 // import Animation from '../Animation/Animation';
 import { Typewriter } from 'react-simple-typewriter';
+import About from '../About/About';
+import Skills from '../Skills/Skills';
+import Projects from '../Projects/Projects';
 
 const Home = () => {
 
@@ -14,7 +17,7 @@ const Home = () => {
 
   return (
     // <Animation>
-    <div className='mb-[250px] font-default text-center md:mt-10 xl:mt-20'>
+    <div id='home' className='mb-[250px] font-default text-center md:mt-10 xl:mt-20'>
       <div className='flex flex-col items-center xl:flex-row justify-between xl:mx-auto xl:px-20'>
 
       {/* This is the info part */}
