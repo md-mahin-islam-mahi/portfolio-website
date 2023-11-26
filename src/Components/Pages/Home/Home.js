@@ -53,8 +53,7 @@ const Home = () => {
         {/* Image part */}
         <section className='xl:w-[40%]'>
           <div data-aos="fade-up-left">
-                <img src="https://i.ibb.co/M8hFYg5/image1-01.png
-                https://i.ibb.co/gJ3NCRK/image2-01.png" alt='Mahin' className='img h-[250px] md:h-[300px] lg:h-[400px] xl:h-[600px] w-auto'/>
+                <img src="https://i.ibb.co/9ykXYD2/img1.png" alt='Mahin' className='img h-[250px] md:h-[300px] lg:h-[400px] xl:h-[600px] w-auto'/>
           </div>
         </section>
         <a target='_blank' className='hover-down xl:hidden mt-10 text-mainFont uppercase border-2 border-bgMain px-5 py-2 rounded-lg text-[14px] md:text-[20px] tracking-wide' href="https://drive.google.com/file/d/1GkT6g0MVQSiOGJxy0b-UcvQ8jaP6G1l_/view?usp=sharing">Check out my Resume!</a>

@@ -22,6 +22,10 @@
     transition: 0.1s linear;
 }
 
-.hover:hover, .hover-down:hover {
+.img {
+    transition: 0.1s linear;
+}
+
+.hover:hover, .hover-down:hover, .img:hover {
     filter: drop-shadow(7px 7px #57CFD9);
 }
