@@ -20,7 +20,7 @@ const Home = () => {
       {/* This is the info part */}
         <section className='xl:w-[40%] xl:text-start xl:pl-[100px]'>
           <div data-aos="fade-up-right">
-          <h3 className='text-[16px] md:text-[18px] lg:text-[24px] xl:text-[28px] font-thin tracking-widest mb-3 font-default text-mainFont'>Hi, my name is</h3>
+          <h3 className='text-[16px] md:text-[18px] lg:text-[24px] xl:text-[28px] font-thin tracking-widest mb-3 font-default text-mainFont'>Hi, I am</h3>
           <h1 className='text-[38px] md:text-[45px] lg:text-[60px] xl:text-[66px] font-fancy tracking-wide mb-5'>
           <Typewriter
                   words={["Md. Mahin Islam Mahi"]}
@@ -33,11 +33,11 @@ const Home = () => {
             </h1>
           <h2 className='text-[20px] md:text-[22px] lg:text-[24px] xl:text-[28px] px-10 md:px-20 xl:px-0 mb-3 text-[#ffffff80]'>
           <Typewriter
-                  words={["I am a web developer, specialized in developing the frontend of a web application. I use React Js in developing the frontend."]}
+                  words={["An innovative Frontend Developer with expertise in HTML-5, CSS-3, React.js, Tailwind CSS, and Bootstrap. Proficient in Next.js, Node.js, Express.js and MongoDB. Eager learner passionate about embracing new technologies for cutting-edge web solutions."]}
                   // loop={5}
                   cursor
                   cursorStyle='|'
-                  typeSpeed={80}
+                  typeSpeed={120}
                   deleteSpeed={50}
                   delaySpeed={3000}
                 />
