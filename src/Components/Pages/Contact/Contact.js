@@ -5,9 +5,6 @@ import './Contact.css'
 const Contact = () => {
   const form = useRef()
 
-  // const sendMail = e => {
-    
-  // }
 
   return (
     // <Animation>

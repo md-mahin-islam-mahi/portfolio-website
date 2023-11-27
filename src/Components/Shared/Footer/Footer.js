@@ -21,7 +21,7 @@ const Footer = () => {
   return (
     
     <div>
-      <span className='block w-full h-[2px] bg-mainFont mt-[100px] rounded-md text-center'></span>
+      <span className='block w-[80%] mx-auto h-[2px] bg-mainFont mt-[100px] rounded-md text-center'></span>
 
       <div className='flex flex-col  justify-start items-start py-10 md:py-10 lg:py-3 text-[12px] md:text-[15px] lg:text-[18px] ml-[50px] mr-[50px] mt-4 md:flex-row md:justify-between md:items-center'>
       <div className='text-start text-[#ffffff88] text[15px]'>

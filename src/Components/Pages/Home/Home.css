@@ -10,10 +10,11 @@
     font-weight: 300;
     line-height: normal;
     letter-spacing: 0.9px;
-    transition: 0.1s linear;
+    transition: 0.2s ease-in-out; 
     cursor: pointer;
     text-decoration: none;
     color: #57CFD9;
+    
 }
 
 .hover-down {

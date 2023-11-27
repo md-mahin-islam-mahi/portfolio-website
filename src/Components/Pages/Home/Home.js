@@ -24,7 +24,7 @@ const Home = () => {
         <section className='xl:w-[40%] xl:text-start xl:pl-[100px]'>
           <div data-aos="fade-up-right">
           <h3 className='text-[16px] md:text-[18px] lg:text-[24px] xl:text-[28px] font-thin tracking-widest mb-3 font-default text-mainFont'>Hi, I am</h3>
-          <h1 className='text-[38px] md:text-[45px] lg:text-[60px] xl:text-[66px] font-fancy tracking-wide mb-5'>
+          <h1 className='text-[38px] md:text-[45px] lg:text-[60px] xl:text-[66px] font-fancy tracking-wide mb-5 hover:text-mainFont transition-all duration-[0.2s]'>
           <Typewriter
                   words={["Md. Mahin Islam Mahi"]}
                   cursor
