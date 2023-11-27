@@ -1,8 +1,4 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faLinux } from '@fortawesome/free-solid-svg-icons'
-
-// import './About.css'
 // import Animation from '../Animation/Animation'
 
 const About = () => {
