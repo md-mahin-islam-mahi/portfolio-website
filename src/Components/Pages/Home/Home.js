@@ -35,16 +35,7 @@ const Home = () => {
                 />
             </h1>
           <h2 className='text-[20px] md:text-[22px] lg:text-[24px] xl:text-[28px] px-10 md:px-20 xl:px-0 mb-3 text-[#ffffff80]'>
-          <Typewriter
-                  words={["An innovative Frontend Developer with expertise in HTML-5, CSS-3, React.js, Tailwind CSS, and Bootstrap. Proficient in Next.js, Node.js, Express.js and MongoDB. Eager learner passionate about embracing new technologies for cutting-edge web solutions."]}
-                  // loop={5}
-                  cursor
-                  cursorStyle='|'
-                  typeSpeed={120}
-                  deleteSpeed={50}
-                  delaySpeed={3000}
-                />
-                </h2>
+                An innovative Frontend Developer with expertise in HTML-5, CSS-3, React.js, Tailwind CSS, and Bootstrap. Proficient in Next.js, Node.js, Express.js and MongoDB. Eager learner passionate about embracing new technologies for cutting-edge web solutions.</h2>
           <h3 className='text-[#57CFD966] text-[18px] md:text-[18px] lg:text-[28px] mb-5 lg:mb-3'>Oh! I use Arch BTW.</h3>
 
             <a target='_blank' className='hover hidden xl:inline-block mt-3 text-mainFont uppercase border-2 border-bgMain px-5 py-3 rounded-xl text-[18px] tracking-wider' href="https://drive.google.com/file/d/1GkT6g0MVQSiOGJxy0b-UcvQ8jaP6G1l_/view?usp=sharing">Check out my Resume!</a>

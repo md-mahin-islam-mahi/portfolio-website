@@ -20,7 +20,7 @@ const Header = () => {
                 </div>
 
                     {/* nav bar for mobile */}
-                <div className={`nav-links flex flex-col justify-between items-center w-[100%] h-auto pt-5 bg-navBg absolute top-0 ${open ? 'top-0 pb-10 shadow-md' : 'top-[-200px]'} text-mainFont`}>
+                <div className={`nav-links flex flex-col justify-between items-center w-[100%] h-auto pt-5 backdrop-blur-lg bg-white/30 absolute top-0 ${open ? 'top-0 pb-10 shadow-md' : 'top-[-200px]'} text-mainFont`}>
 
                     <NavLink className='ml-5 mr-5 uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer}' to="/">Home</NavLink>
 
