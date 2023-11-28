@@ -10,7 +10,7 @@ const Header = () => {
 
     return (
         <>
-            <nav className='flex flex-col items-center w[100%] pl-10 pr-10 pt-5 pb-20 mb-0 navbar lg:hidden sticky top-0 ease-in-out duration-[0.2s]'>
+            <nav className='flex flex-col items-center w-[100%] pl-10 pr-10 pt-5 pb-20 mb-0 navbar lg:hidden sticky top-0 ease-in-out duration-[0.2s] z-50'>
 
                 {/* hamburger menu*/}
                 <div className='absolute top-5 right-5 text-5xl text-gray-500 lg:hidden z-20 rotate-[270deg] text-mainFont'>
@@ -37,7 +37,7 @@ const Header = () => {
             </nav>
 
                     {/* nav bar for pc */}
-            <nav className='hidden lg:flex flex-row justify-between items-center pl-10 pr-10 pt-5 pb-5 mb-0 navbar sticky top-0 backdrop-blur-md bg-white/30 text-mainFont'>
+            <nav className='hidden lg:flex flex-row justify-between items-center pl-10 pr-10 pt-5 pb-5 mb-0 navbar sticky top-0 backdrop-blur-md bg-white/30 text-mainFont z-50'>
 
                 <div className='nav-links'>
                     <NavLink className='ml-[30px] mr-[30px] uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/">Home</NavLink>
