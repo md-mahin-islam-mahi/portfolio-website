@@ -16,7 +16,7 @@ const Skills = () => {
     return (
         <div id='skills' className='px-3 font-default z-[-5]'>
             <h1 className='text-[40px] md:text-[60px] text-start mt-3 xl:mt-10 md:ml-5 xl:ml-20'>Technologies I know...</h1>
-            <section className='grid grid-cols-2 md:grid-cols-4 my-3'>
+            <section className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 my-3'>
                 {
                     skills.map(skill => <ShowSkill 
                         key={skill.id}

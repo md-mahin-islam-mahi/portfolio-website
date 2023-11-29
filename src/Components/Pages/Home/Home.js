@@ -4,11 +4,6 @@ import copy from 'copy-to-clipboard';
 import toast, { Toaster } from 'react-hot-toast';
 // import Animation from '../Animation/Animation';
 import { Typewriter } from 'react-simple-typewriter';
-import About from '../About/About';
-import Skills from '../Skills/Skills';
-import Projects from '../Projects/Projects';
-import Blog from '../Blog/Blog';
-import Contact from '../Contact/Contact';
 
 const Home = () => {
 
