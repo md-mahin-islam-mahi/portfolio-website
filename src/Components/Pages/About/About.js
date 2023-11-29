@@ -5,9 +5,6 @@ const About = () => {
   return (
     // <Animation>
     <div id='about' className='xl:px-20'>
-      <div>
-        <h1 className='under-line font-fancy text-[36px] md:text-[46px] lg:text-[60px] text-mainFont'>ABOUT ME</h1>
-      </div>
         <div className='flex flex-col justify-between items-center px-3 lg:px-24 mt-10 md:mt-16'>
           {/* image section */}
           <section className=''>
