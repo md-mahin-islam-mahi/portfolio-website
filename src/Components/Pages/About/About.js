@@ -14,11 +14,11 @@ const About = () => {
         
         {/* Starts About Section */}
     <div id='about' className='xl:px-20 lg:-mt-20'>
-        <div className='flex flex-col lg:flex-row justify-between items-center px-3 lg:px-24 mt-10 md:mt-16'>
+        <div className='flex flex-col xl:flex-row justify-between items-center px-3 lg:px-20 mt-10 md:mt-16'>
           {/* image section */}
           <section className='lg:w-[40%]'>
             <div data-aos="fade-up-right">
-              <img className='img h-[250px] md:h-[300px] lg:h-[400px] xl:h-[600px] w-auto' src="https://i.ibb.co/gJ3NCRK/image2-01.png" alt="Mahin" />
+              <img className='img h-[250px] md:h-[300px] lg:h-auto xl:h-full w-full' src="https://i.ibb.co/xfVcLy6/final.png" alt="Mahin" />
             </div>
           </section>
 
