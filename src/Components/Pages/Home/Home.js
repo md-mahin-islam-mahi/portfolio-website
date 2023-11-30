@@ -2,21 +2,26 @@ import React from 'react'
 import './Home.css'
 import copy from 'copy-to-clipboard';
 import toast, { Toaster } from 'react-hot-toast';
-// import Animation from '../Animation/Animation';
 import { Typewriter } from 'react-simple-typewriter';
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import About from '../About/About';
 
 const Home = () => {
 
-  const copyText = () => {
-    copy("wdmahin.mhm@gmail.com");
-    toast.success("Gmail coppied to clipboard")
-  }
-
   return (
-    // <Animation>
     <>
-      <div id='home' className='mb-[250px] font-default text-center md:mt-10 xl:mt-20'>
+    {/* Icons Area */}
+      <div className='hidden lg:flex flex-col justify-start items-start ml-10 sticky top-[100px] z-[500] '>
+        <div className="line"></div>
+          <a target='_blank' href="https://www.linkedin.com/in/md-mahin-islam-mahi/"><FaLinkedin className='my-2 text-[30px] text-mainFont icons' /> </a>
+          <a target='_blank' href="https://github.com/md-mahin-islam-mahi"><FaGithub className='my-2 text-[30px] text-mainFont icons' /> </a>
+        </div>
+
+      {/* starts home section */}
+      <div id='home' className='mb-[250px] font-default text-center'>
+      
       <div className='flex flex-col items-center xl:flex-row justify-between xl:mx-auto xl:px-20'>
+      
 
       {/* This is the info part */}
         <section className='xl:w-[40%] xl:text-start xl:pl-[100px]'>
@@ -52,7 +57,6 @@ const Home = () => {
       </div>
       </div>
     </>
-    // </Animation>
   )
 }
 

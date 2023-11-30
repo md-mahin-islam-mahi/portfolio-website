@@ -27,6 +27,25 @@
     transition: 0.1s linear;
 }
 
-.hover:hover, .hover-down:hover, .img:hover {
+.icons {
+    transition: 0.1s linear;
+}
+
+.icons:hover {
+    filter: drop-shadow(0 0 3px #57CFD9);
+}
+
+.hover:hover, .hover-down:hover, .img:hover{
     filter: drop-shadow(7px 7px #57CFD9);
+}
+
+.line {
+    height: 3px;
+    width: 120px;
+    position: relative;
+    left: -43px;
+    bottom: 70px;
+    border-radius: 20px;
+    background-color: #57CFD9;
+    transform: rotate(90deg);
 }

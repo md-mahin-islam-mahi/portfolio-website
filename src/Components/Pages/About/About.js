@@ -1,21 +1,30 @@
 import React from 'react'
-// import Animation from '../Animation/Animation'
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const About = () => {
   return (
-    // <Animation>
-    <div id='about' className='xl:px-20'>
-        <div className='flex flex-col justify-between items-center px-3 lg:px-24 mt-10 md:mt-16'>
+    <>
+    {/* Icons Area */}
+    <div className='hidden lg:flex flex-col justify-start items-start ml-10 sticky top-[100px] z-[500] '>
+        <div className="line"></div>
+          <a target='_blank' href="https://www.linkedin.com/in/md-mahin-islam-mahi/"><FaLinkedin className='my-2 text-[30px] text-mainFont icons' /> </a>
+          <a target='_blank' href="https://github.com/md-mahin-islam-mahi"><FaGithub className='my-2 text-[30px] text-mainFont icons' /> </a>
+        </div>
+
+        
+        {/* Starts About Section */}
+    <div id='about' className='xl:px-20 lg:-mt-20'>
+        <div className='flex flex-col lg:flex-row justify-between items-center px-3 lg:px-24 mt-10 md:mt-16'>
           {/* image section */}
-          <section className=''>
-            <div data-aos="zoom-in-right">
-              <img className='h-[250px] md:h-[300px] lg:h-[400px] xl:h-[600px] w-auto' src="https://i.ibb.co/gJ3NCRK/image2-01.png" alt="Mahin" />
+          <section className='lg:w-[40%]'>
+            <div data-aos="fade-up-right">
+              <img className='img h-[250px] md:h-[300px] lg:h-[400px] xl:h-[600px] w-auto' src="https://i.ibb.co/gJ3NCRK/image2-01.png" alt="Mahin" />
             </div>
           </section>
 
           {/* text section */}
-          <section className=''>
-            <div data-aos="zoom-out-left">
+          <section className='lg:w-[50%]'>
+            <div data-aos="fade-up-left">
               <h2 className='text-start text-[16px] mt-10 mb-10 md:mt-0 md:text-[20px] xl:text-[24px] px-7 md:px-0 font-default text-[#ffffff88]'>
               <div className='font-default text-[22px] md:text-[26px] lg:text-[35px] mt-10 text-[#ffffff]'>
                 Well, here is a short introduction of me...
@@ -33,7 +42,7 @@ const About = () => {
           </section>
         </div>
     </div>
-    // </Animation>
+    </>
   )
 }
 
