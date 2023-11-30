@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import "./Header.css"
-import { HiMenuAlt3, HiX } from "react-icons/hi";
+import { HiX } from "react-icons/hi";
 import { LuBarChart } from "react-icons/lu";
 
 const Header = () => {
@@ -30,7 +30,7 @@ const Header = () => {
 
                     <NavLink className='ml-5 mr-5 uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/projects">Projects</NavLink>
 
-                    <NavLink className='ml-5 mr-5 uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/blog">Blog</NavLink>
+                    {/* <NavLink className='ml-5 mr-5 uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/blog">Blog</NavLink> */}
 
                     <NavLink className='ml-5 mr-5 uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/contact">Contact Me</NavLink>
                 </div>
@@ -44,7 +44,7 @@ const Header = () => {
                     <NavLink className='ml-[30px] mr-[30px] uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/about">About</NavLink>
                     <NavLink className='ml-[30px] mr-[30px] uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/skills">Skills</NavLink>
                     <NavLink className='ml-[30px] mr-[30px] uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/projects">Projects</NavLink>
-                    <NavLink className='ml-[30px] mr-[30px] uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/blog">Blog</NavLink>
+                    {/* <NavLink className='ml-[30px] mr-[30px] uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/blog">Blog</NavLink> */}
                     <NavLink className='ml-[30px] mr-[30px] uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/contact">Contact Me</NavLink>
                 </div>
             </nav>

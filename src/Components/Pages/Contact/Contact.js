@@ -25,7 +25,7 @@ const Contact = () => {
     // <Animation>
     <div id='contact' className='h-screen'>
       <div data-aos="fade-up">
-        <h1 className='under-line font-fancy text-[36px] md:text-[46px] lg:text-[60px] text-mainFont'>Send me a message</h1>
+        <h1 className='under-line font-fancy text-[36px] md:text-[46px] lg:text-[60px] text-mainFont'>Send me your message</h1>
       </div>
       <div data-aos="fade-up">
         <form onSubmit={sendEmail} className='flex flex-col justify-center items-center px-1 mt-20 md:mt-40'>
