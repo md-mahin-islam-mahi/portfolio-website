@@ -18,10 +18,8 @@ const Home = () => {
         </div>
 
       {/* starts home section */}
-      <div id='home' className='mb-[250px] font-default text-center'>
-      
+      <div id='home' className='mb-20 -mt-10 lg:mt-0 mx-auto px-1 font-default text-center'>
       <div className='flex flex-col items-center xl:flex-row justify-between xl:mx-auto xl:px-20'>
-      
 
       {/* This is the info part */}
         <section className='xl:w-[40%] xl:text-start xl:pl-[100px]'>
@@ -56,6 +54,7 @@ const Home = () => {
         <a target='_blank' className='hover-down xl:hidden mt-10 text-mainFont uppercase border-2 border-bgMain px-5 py-2 rounded-lg text-[14px] md:text-[20px] tracking-wide' href="https://drive.google.com/file/d/1GkT6g0MVQSiOGJxy0b-UcvQ8jaP6G1l_/view?usp=sharing">Check out my Resume!</a>
       </div>
       </div>
+      <About />
     </>
   )
 }

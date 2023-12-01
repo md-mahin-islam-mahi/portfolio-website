@@ -24,7 +24,7 @@ const Header = () => {
 
                     <NavLink className='ml-5 mr-5 uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer}' to="/">Home</NavLink>
 
-                    <NavLink className='ml-5 mr-5 uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/about">About</NavLink>
+                    {/* <NavLink className='ml-5 mr-5 uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/about">About</NavLink> */}
 
                     <NavLink className='ml-5 mr-5 uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/skills">Skills</NavLink>
 
@@ -41,7 +41,7 @@ const Header = () => {
 
                 <div className='nav-links'>
                     <NavLink className='ml-[30px] mr-[30px] uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/">Home</NavLink>
-                    <NavLink className='ml-[30px] mr-[30px] uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/about">About</NavLink>
+                    {/* <NavLink className='ml-[30px] mr-[30px] uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/about">About</NavLink> */}
                     <NavLink className='ml-[30px] mr-[30px] uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/skills">Skills</NavLink>
                     <NavLink className='ml-[30px] mr-[30px] uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/projects">Projects</NavLink>
                     {/* <NavLink className='ml-[30px] mr-[30px] uppercase tracking-wide text-[18px] font-bold text-gray-500 hover:text-gray-600 cursor-pointer' to="/blog">Blog</NavLink> */}
