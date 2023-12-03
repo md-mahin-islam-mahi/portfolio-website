@@ -22,6 +22,7 @@
     "react-router-dom": "^6.20.0",
     "react-scripts": "5.0.1",
     "react-simple-typewriter": "^5.0.1",
+    "swr": "^2.2.4",
     "tippy.js": "^6.3.7",
     "tooltip": "^1.6.1",
     "web-vitals": "^2.1.4"

@@ -5,6 +5,7 @@ import toast, { Toaster } from 'react-hot-toast';
 import { Typewriter } from 'react-simple-typewriter';
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import About from '../About/About';
+import Spinner from '../../Global/Spinner/Spinner';
 
 const Home = () => {
 

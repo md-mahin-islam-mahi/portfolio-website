@@ -1,18 +1,29 @@
 import React, { useEffect, useState } from 'react';
 import ShowSkill from './ShowSkill';
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import useSWR from 'swr';
 
 const Skills = () => {
-    const [skills, setSkills] = useState([]);
+    // const [skills, setSkills] = useState([]);
 
-    useEffect(() => {
-        fetch('https://md-mahin-portfolio-server.vercel.app/skills')
-        .then(res => res.json())
-        .then(data => {
-            setSkills(data)
-            console.log(data)
-        })
-    }, [])
+    const fetcher = async (...args) => {
+        const res = await fetch (...args);
+        const data = res.json();
+        return data
+    }
+
+    const { data, error} = useSWR('https://md-mahin-portfolio-server.vercel.app/skills', fetcher, {
+        suspense: true
+    });
+
+    // useEffect(() => {
+    //     fetch('https://md-mahin-portfolio-server.vercel.app/skills')
+    //     .then(res => res.json())
+    //     .then(data => {
+    //         setSkills(data)
+    //         console.log(data)
+    //     })
+    // }, [])
 
     return (
         <>
@@ -26,7 +37,7 @@ const Skills = () => {
             <h1 className='text-[40px] md:text-[60px] text-start mt-3 md:-mt-20 md:ml-5 xl:ml-20'>Technologies I know...</h1>
             <section className='grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 my-1'>
                 {
-                    skills.map(skill => <ShowSkill 
+                    data.map(skill => <ShowSkill 
                         key={skill.id}
                         skill={skill}
                          />)
